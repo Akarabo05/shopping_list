@@ -12,7 +12,7 @@ A Flutter shopping list app.
 
 ## Screenshots
 ![Quantities](screenshots/quantities.png)
-![Undo](screenshots/delete-undo.png)
+![Undo](screenshots/delete_undo.png)
 ![Bought filter](screenshots/Bought-filter.png)
 ![Item details](screenshots/details.png)
 
