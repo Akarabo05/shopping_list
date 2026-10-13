@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 class Item {
   Item(this.name);
 
-  String name; // not final any more: the details screen renames items
+  String name;
   bool bought = false;
   int quantity = 1;
   String note = '';
@@ -296,7 +296,7 @@ class _DetailsScreenState extends State<DetailsScreen> {
       );
       return;
     }
-    // Changes are written to the item only here, so the back arrow changes nothing.
+
     widget.item.name = name;
     widget.item.note = noteController.text.trim();
     widget.item.category = category;
